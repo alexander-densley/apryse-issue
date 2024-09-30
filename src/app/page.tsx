@@ -1,4 +1,4 @@
-import Viewer from "@/components/viewer";
+import Viewer from '@/components/viewer';
 
 export default function Home() {
   return (
