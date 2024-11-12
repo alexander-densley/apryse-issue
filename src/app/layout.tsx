@@ -1,10 +1,10 @@
-import type { Metadata } from "next";
-import "./globals.css";
+import type { Metadata } from 'next';
+import './globals.css';
 
 
 export const metadata: Metadata = {
-  title: "Apryse WebViewer",
-  description: "NextJS 14 Integration using App router",
+  title: 'Apryse WebViewer',
+  description: 'NextJS 14 Integration using App router',
 };
 
 export default function RootLayout({
