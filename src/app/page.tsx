@@ -4,11 +4,14 @@ import Viewer from '@/components/viewer'
 export default function Home() {
 	return (
 		<main>
-			<Card>
+			<Card className='m-4'>
 				<CardHeader>
-					<CardTitle>PDF Viewer</CardTitle>
+					<CardTitle>Issue can be seen here</CardTitle>
 				</CardHeader>
-				<CardContent>hey</CardContent>
+				<CardContent>
+					Refresh the page to see the issue. While the viewer is loading, the
+					border is a gray, but once the viewer is loaded, the border is black.
+				</CardContent>
 			</Card>
 
 			<Viewer />
