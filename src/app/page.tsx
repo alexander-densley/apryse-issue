@@ -10,7 +10,8 @@ export default function Home() {
 				</CardHeader>
 				<CardContent>
 					Refresh the page to see the issue. While the viewer is loading, the
-					border is a gray, but once the viewer is loaded, the border is black.
+					border is a gray (what it should be), but once the viewer is loaded,
+					the border is black.
 				</CardContent>
 			</Card>
 
